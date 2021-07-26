@@ -2,7 +2,7 @@ class Solution {
     public int reverse(int x) {
         if (x == 0) return 0;
         boolean negative = x >= 0 ? false : true;
-        int ans = "";
+        String ans = "";
         if (negative) {
             x = -x;
         }
